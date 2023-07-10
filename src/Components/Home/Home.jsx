@@ -8,11 +8,11 @@ const Home = () => {
   return (
     <div>
       <Banner></Banner>
-      <Row title = 'Upcoming Movie' fetchURL = {request.requestUpcoming}></Row>
-      <Row title = 'popular Movie' fetchURL = {request.requestPopular}></Row>
-      <Row title = 'Trending Movie' fetchURL = {request.requestTrending}></Row>
-      <Row title = 'TopRated Movie' fetchURL = {request.requestHorror}></Row>
-      <Row title = 'Horror Movie' fetchURL = {request.requestHorror}></Row>
+      <Row rowId='1' title = 'Upcoming Movie' fetchURL = {request.requestUpcoming}></Row>
+      <Row rowId='2' title = 'popular Movie' fetchURL = {request.requestPopular}></Row>
+      <Row rowId='3' title = 'Trending Movie' fetchURL = {request.requestTrending}></Row>
+      <Row rowId='4' title = 'TopRated Movie' fetchURL = {request.requestHorror}></Row>
+      <Row rowId='5' title = 'Horror Movie' fetchURL = {request.requestHorror}></Row>
     </div>
   );
 };
